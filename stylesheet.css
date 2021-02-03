@@ -1,0 +1,61 @@
+.main-draw{
+    padding-bottom: 30px;
+}
+
+.flex{
+    display: flex;
+    height: 600;
+
+}
+
+.flex-left{
+    flex-grow: 5;
+
+}
+
+.flex-right{
+    flex-grow: 5;
+}
+
+.flex-right2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 5;
+}
+
+.flexc{
+    display: flex;
+    flex-grow: 1
+}
+
+.midscroll{
+    flex-grow: 5;
+}
+
+.year{
+    border: 2px solid grey;
+    background: rgb(187, 187, 187)
+
+}
+
+.page-heading{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
+
+.container{
+    position: relative;
+}
+
+a:link{
+    text-decoration: none;
+    padding: 5px
+}
+
+hr{
+    height: 2px;
+    max-width: 80%;
+    background-color: grey;
+}
