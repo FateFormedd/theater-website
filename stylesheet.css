@@ -2,6 +2,23 @@
     padding-bottom: 30px;
 }
 
+.topnavc{
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+
+.topnavleft{
+    display: flex;
+    flex-grow: 0
+}
+
+.topnavcenter{
+    display: flex;
+    flex-grow: 8;
+}
+
 .flex{
     display: flex;
     height: 600;
@@ -26,6 +43,9 @@
 
 .flexc{
     display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-content: flex-end;
     flex-grow: 1
 }
 
@@ -58,4 +78,18 @@ hr{
     height: 2px;
     max-width: 80%;
     background-color: grey;
+}
+
+.footer{
+    color: white;
+    font-size: 20px;
+
+}
+
+a:hover{
+    background-color: grey;
+}
+
+span{
+    padding: 5px;
 }
